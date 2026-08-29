@@ -5,7 +5,7 @@ const services = [
     {title: "Caping Acrilico", description:"Refuerzo con poligel sobre largo natural + diseño a tu gusto.", image: "/media/capping-acrilico-1.jpeg" },
     {title: "Esculpidas En Acrilico", description:"Alargá y dale tu forma favorita a tus uñas .", image: "/media/esculpidas-1.jpeg" },
     {title: "Esmaltado Semi permanente", description:"Esmaltado Semi Permanente sobre tu uña natural.", image: "/media/semi-permanente.jpeg" },
-    {title: "Soft Gel", description:"Alarga tus uñas con los tips de gel, se adhieren a tu uña natural logrando una extensión más simple y un resultado duradero y delicado.", image: "/media/semi-permanente.jpeg" },
+    {title: "Soft Gel", description:"Alarga tus uñas con los tips de gel, se adhieren a tu uña natural logrando una extensión más simple y un resultado duradero y delicado.", image: "/media/soft-gel.jpeg" },
     {title: "Retiro de Semi permanente", description:"Opcion unicamente para retiros de otros salones! o si desea retiro y no aplicarse un nuevo servicio.", image: "/media/semi-permanente.jpeg" },
     {title: "Retiro de Acrilico/Acrigel", description:"Opcion unicamente para retiros de otros salones! o si desea retiro y no aplicarse un nuevo servicio.", image: "/media/semi-permanente.jpeg" },
 ];
