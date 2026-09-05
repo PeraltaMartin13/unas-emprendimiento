@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services"
 import Nav from "./components/Nav"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Nav />
         <Hero />
         <Services />
+        <Footer />
       </main>
     </div>
   );

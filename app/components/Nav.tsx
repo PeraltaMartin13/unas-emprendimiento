@@ -2,6 +2,8 @@
 
 import Image from "next/image"
 import { useState } from "react"
+import { INSTAGRAM_URL } from "../lib/constants"
+import { BOOKING_URL } from "../lib/constants"
 
 
 
@@ -14,9 +16,9 @@ export default function Nav() {
             <div className="flex gap-5" >
                 <button className="text-base p-4 md:hidden" onClick={() => setMenuDesplegado(!menuDesplegado)}>☰</button>
                 <div className={`${menuDesplegado ? "flex flex-col" : "hidden"} gap-y-4 text-base font-bold md:flex md:flex-row md:text-2xl md:gap-x-10`}>
-                    <a href="https://calendico.com/haka/Haka">Reservar Un Turno</a>
+                    <a href={BOOKING_URL}>Reservar Un Turno</a>
                     <a href="#Services">Servicios</a>
-                    <a href="#Testimonios">Ustedes</a>
+                    <a href={INSTAGRAM_URL}>Mi Instragram</a>
                     <a href="#Ubicacion">Mi ubicacion</a>
                     <a href="#SobreMi">Un Poco Sobre mi</a>
                 </div>
